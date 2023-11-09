@@ -1,0 +1,13 @@
+{
+  "format": 2,
+  "compileOptions": {
+    "component2": true,
+    "transpile": false
+  },
+  "developOptions": {
+    "hotReload": false
+  },
+  "assetsInclude": [
+    "**/*.xml"
+  ]
+}
