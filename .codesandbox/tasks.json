@@ -1,0 +1,85 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build:weapp": {
+      "name": "build:weapp",
+      "command": "npm run build:weapp"
+    },
+    "build:swan": {
+      "name": "build:swan",
+      "command": "npm run build:swan"
+    },
+    "build:alipay": {
+      "name": "build:alipay",
+      "command": "npm run build:alipay"
+    },
+    "build:tt": {
+      "name": "build:tt",
+      "command": "npm run build:tt"
+    },
+    "build:h5": {
+      "name": "build:h5",
+      "command": "npm run build:h5"
+    },
+    "build:rn": {
+      "name": "build:rn",
+      "command": "npm run build:rn"
+    },
+    "build:qq": {
+      "name": "build:qq",
+      "command": "npm run build:qq"
+    },
+    "build:jd": {
+      "name": "build:jd",
+      "command": "npm run build:jd"
+    },
+    "build:quickapp": {
+      "name": "build:quickapp",
+      "command": "npm run build:quickapp"
+    },
+    "dev:weapp": {
+      "name": "dev:weapp",
+      "command": "npm run dev:weapp"
+    },
+    "dev:swan": {
+      "name": "dev:swan",
+      "command": "npm run dev:swan"
+    },
+    "dev:alipay": {
+      "name": "dev:alipay",
+      "command": "npm run dev:alipay"
+    },
+    "dev:tt": {
+      "name": "dev:tt",
+      "command": "npm run dev:tt"
+    },
+    "dev:h5": {
+      "name": "dev:h5",
+      "command": "npm run dev:h5"
+    },
+    "dev:rn": {
+      "name": "dev:rn",
+      "command": "npm run dev:rn"
+    },
+    "dev:qq": {
+      "name": "dev:qq",
+      "command": "npm run dev:qq"
+    },
+    "dev:jd": {
+      "name": "dev:jd",
+      "command": "npm run dev:jd"
+    },
+    "dev:quickapp": {
+      "name": "dev:quickapp",
+      "command": "npm run dev:quickapp"
+    }
+  }
+}

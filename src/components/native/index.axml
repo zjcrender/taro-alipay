@@ -1,0 +1,8 @@
+<view>
+  <view>Native component</view>
+  <view>
+    <view>prop value: {{ pv }}</view>
+    <view>value: {{ value }}</view>
+    <button onTap="addValue">add</button>
+  </view>
+</view>
